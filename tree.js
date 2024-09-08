@@ -26,7 +26,7 @@ export class TreeChart extends ParentChart {
       this.data,
       (d) => d["Mechanisms"],
       (d) => d["Patterns"],
-      (d) => d["Features"]
+      // (d) => d["Features"]
     );
     this.rootData = d3
       .hierarchy(_data)
@@ -108,7 +108,7 @@ export class TreeChart extends ParentChart {
               } - Number of Features is  ${this.root.leaves().length}`
             : d.children
             ? `${d.data[0]} ${d.leaves().length} `
-            : d.data["Definition of Feature"]
+            : d.data["Features"]
         }  </p>`;
         this.tips_show(e, d, html);
       })
