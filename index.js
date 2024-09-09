@@ -242,12 +242,12 @@ function gen_platform_div({ platforms, level_datas, colors, platforms_data }) {
     .join("div")
     .attr("class", "smallTree");
 
-  div.append("div").html((d) => d.split("(")[0]);
+  div.append("div").html((d) => d.split("(")[0]).style('text-align','center');
   div
     .append("div")
     .attr("id", (d) => "small" + toValidClassName(d))
-    .attr("height", "100%")
-    .attr("width", "100%");
+    .style("height", "100%")
+    .style("width", `${1440 / 6}px`);
 
   div.on("click", (e, d) => {
     get_TreeMap_by_div({
