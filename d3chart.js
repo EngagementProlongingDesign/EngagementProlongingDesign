@@ -225,11 +225,11 @@ export function toValidClassName(input) {
   let className = input.trim();
 
   // 替换非字母数字和允许的符号（- 和 _）为连字符
-  className = className.replace(/[^a-zA-Z0-9-_]/g, "-");
+  className = className.replace(/[^a-zA-Z-_]/g, "");
 
   // 如果类名以数字开头，则在前面加上字母前缀
   if (/^\d/.test(className)) {
-    className = "class-" + className;
+    className = "" + className;
   }
 
   return className;
@@ -247,9 +247,13 @@ function get_mid_point_position(name, spliterSymbol, OurterOrInner) {
 }
 
 function get_mid_angel(name, spliterSymbol) {
-  let positionTo = d3.select(`.${toValidClassName(name)}`).attr("data-angel");
-  positionTo = parseFloat(positionTo.split(spliterSymbol)[1]);
-  return positionTo;
+  try {
+    let positionTo = d3.select(`.${toValidClassName(name)}`).attr("data-angel");
+    positionTo = parseFloat(positionTo.split(spliterSymbol)[1]);
+    return positionTo;
+  } catch {
+    return 0;
+  }
 }
 function getLineEnd(fromPosition, lineLength, g, name) {
   const distanceToCenter = Math.sqrt(

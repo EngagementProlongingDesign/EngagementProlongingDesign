@@ -24,6 +24,7 @@ async function main({ app_or_web_type, Mechanism, Features, Patterns }) {
       level_data = level_data.filter(
         (d) => toValidClassName(d["Patterns"]) == Patterns
       );
+      debugger;
     }
     if (Features) {
       level_data = level_data.filter(
@@ -293,9 +294,12 @@ function get_TreeMap_by_div({
   }
 }
 await main({ app_or_web_type: "app" });
-filter()
+filter();
+
 d3.select("#app").on("click", async () => {
   await main({ app_or_web_type: "app" });
+  d3.select("#app").attr("class", "layui-btn layui-bg-gray ");
+  d3.select("#web").attr("class", "layui-btn layui-bg-black ");
   d3.select("#siteName").html("App");
   d3.select("#appImage").style("display", "block");
   d3.select("#webImage").style("display", "none");
@@ -303,6 +307,8 @@ d3.select("#app").on("click", async () => {
 });
 d3.select("#web").on("click", async () => {
   await main({ app_or_web_type: "web" });
+  d3.select("#web").attr("class", "layui-btn layui-bg-gray ");
+  d3.select("#app").attr("class", "layui-btn layui-bg-black ");
   d3.select("#siteName").html("Web");
   d3.select("#appImage").style("display", "none");
   d3.select("#webImage").style("display", "block");
@@ -312,16 +318,16 @@ d3.select("#web").on("click", async () => {
 
 function filter() {
   // 点击交互
-  d3.select(".depth1").on("click", async function () {
+  d3.selectAll(".depth1").on("click", async function () {
     let MechanismId = d3.select(this).attr("id");
     await main({ app_or_web_type: "app", Mechanism: MechanismId });
   });
-  d3.select(".depth2").on("click", async function () {
+  d3.selectAll(".depth2").on("click", async function () {
     let PatternsID = d3.select(this).attr("id");
     await main({ app_or_web_type: "app", Patterns: PatternsID });
   });
 
-  d3.select(".depth3").on("click", async function () {
+  d3.selectAll(".depth3").on("click", async function () {
     let FeaturesID = d3.select(this).attr("id");
     await main({ app_or_web_type: "app", Features: FeaturesID });
   });
