@@ -25,97 +25,134 @@
     </style>
   </head>
   <body>
-    <ul class="layui-nav">
-      <li class="layui-nav-item layui-this"><a href="">Pie</a></li>
-      <li class="layui-nav-item"><a href="#viz3">Tree</a></li>
-    </ul>
-    <!-- Web App -->
-    <style>
-      .layui-btn-container {
-        display: grid;
-        justify-items: end;
-      }
-    </style>
-    <div class="layui-btn-container">
-      <div>
-        <button type="button" class="layui-btn layui-bg-blue" id="app">
-          App
-        </button>
-        <button type="button" class="layui-btn layui-bg-orange" id="web">
-          Web
-        </button>
-      </div>
-    </div>
-    <style>
-      #viz {
-        display: grid;
-        justify-items: center;
-      }
-      #viz1 {
-        height: 120vh;
-        width: 80vw;
-      }
-      #viz2 {
-        height: 120vh;
-        width: 80vw;
-      }
-      #viz3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        height: 120vh;
-        width: 80vw;
-      }
-      .smallTree {
-        display: grid;
-        grid-template-rows: 10% 90%;
-        justify-content: center;
-      }
-    </style>
-    <main id="viz">
-      <h2 id="siteName">App</h2>
-      <div id="viz1" class="chart"></div>
-      <h1>App</h1>
-      <img src="app.png" alt="" srcset="" style="width: 100%; height: 60vh" />
-
-      <h1>Website</h1>
-      <img
-        src="website.png"
-        alt=""
-        srcset=""
-        style="width: 100%; height: 60vh"
-      />
-
-      <img
-        src="./platform.png"
-        alt=""
-        srcset=""
-        style="width: 1400px; height: 1200px"
-      />
-
+    <article style="width: 1440px; margin: 0px auto">
       <style>
-        #viz2Section {
+        .layui-btn-container {
           display: grid;
-          grid-template-columns: auto auto;
+          justify-items: end;
         }
-        #featuresDiv {
-          justify-items: center;
-          padding: 30% 0%;
+        .layui-btn {
+          border: 1px solid gray;
         }
       </style>
-      <h2 id="PlatFormName">All PlatForm</h2>
-      <section id="viz2Section">
-        <div id="viz2" class="chart"></div>
-        <div id="featuresDiv"></div>
-      </section>
-      <div id="viz3" class="platforms"></div>
-      <img
-        src="./features.png"
-        alt=""
-        srcset=""
-        style="width: 1200px; height: 3000px"
-      />
-    </main>
+      <div
+        style="
+          position: sticky;
+          top: 0;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 80% 20%;
+          align-items: center;
+          line-height: 60px;
+          background-color: black;
+        "
+      >
+        <h1
+          style="
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+
+            color: wheat;
+          "
+        >
+          Extended-Use Design (EUD) on Very Large Online Platforms (VLOPs)
+        </h1>
+
+        <div class="layui-btn-container">
+          <div>
+            <button type="button" class="layui-btn layui-bg-gray" id="app">
+              App
+            </button>
+            <button type="button" class="layui-btn layui-bg-black" id="web">
+              Website
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web App -->
+
+      <style>
+        #viz {
+          display: grid;
+          justify-items: center;
+        }
+        #viz1 {
+          height: 120vh;
+          width: 100%;
+        }
+        #viz2 {
+          height: 100vh;
+          width: 80vw;
+        }
+        #viz3 {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+          height: 120vh;
+          width: 100%;
+        }
+        .smallTree {
+          display: grid;
+          grid-template-rows: 10% 90%;
+          justify-content: center;
+        }
+      </style>
+      <main id="viz">
+        <h2 id="siteName"></h2>
+        <div id="viz1" class="chart"></div>
+        <div id="appImage">
+          <h1>Prevalence of EUD across VLOP apps</h1>
+          <img
+            src="app.png"
+            alt=""
+            srcset=""
+            style="width: 100%; height: 100%"
+          />
+        </div>
+        <div id="webImage" style="display: none">
+          <h1>Prevalence of EUD across VLOP webs</h1>
+          <img src="website.png" alt="" style="width: 100%; height: 100%" />
+        </div>
+        <img
+          src="./platform.png"
+          alt=""
+          srcset=""
+          style="width: 100%; height: 1200px"
+        />
+
+        <style>
+          #viz2Section {
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+          }
+          #featuresDiv {
+            justify-items: center;
+            padding: 30% 0%;
+          }
+          .smallTree {
+            border: 0.5px solid lightgray;
+            border-radius: 20px;
+            margin: 10px;
+            padding: 4px;
+          }
+        </style>
+        <h2 id="PlatFormName">All PlatForm</h2>
+        <section id="viz2Section">
+          <div id="viz2" class="chart"></div>
+          <div id="featuresDiv"></div>
+        </section>
+        <div id="viz3" class="platforms"></div>
+        <img
+          src="./features.png"
+          alt=""
+          srcset=""
+          style="width: 100%; height: 3000px"
+        />
+      </main>
+    </article>
     <script src="./index.js" type="module"></script>
     <!-- 引入 layui.js -->
     <script src="./layui/layui.js"></script>

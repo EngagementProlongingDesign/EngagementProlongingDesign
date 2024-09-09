@@ -14,6 +14,9 @@ export class PieChart extends ParentChart {
     this.data = data;
     this._handle_data(sortFunc);
   }
+  setDepth(num) {
+    this.depth = num;
+  }
   _handle_data(sortFunc) {
     let pie_data = d3.rollups(
       this.data,
@@ -40,7 +43,7 @@ export class PieChart extends ParentChart {
       .padAngle(0.002);
   }
 
-  draw_chart() {
+  draw_chart(colorFunc) {
     this.midPoint = { x: this.innerW / 2, y: this.innerH / 2 };
     this.g = this.ChartArea.append("g").attr(
       "transform",
@@ -51,7 +54,7 @@ export class PieChart extends ParentChart {
     let paths_g = g.selectAll("myg").data(this.pie_data).join("g");
     let paths = paths_g
       .append("path")
-      .attr("class", (d) => toValidClassName(d.data[0]))
+      .attr("class", (d) => toValidClassName(d.data[0]) + ` depth${this.depth}`)
       .attr("id", (d) => toValidClassName(d.data[0]))
       .attr("data-inner-middle-position", (d) => this.get_x_y_inner(d))
       .attr("data-outer-middle-position", (d) => this.get_x_y_outer(d))
@@ -59,14 +62,15 @@ export class PieChart extends ParentChart {
         return `angel-${(d.startAngle + d.endAngle) / 2}`;
       })
       .attr("d", this.arc)
-      .attr("fill", (d) => this.colors.get(d.data[0]));
+
+      .attr("fill", (d, index) => colorFunc(d.data[0], d.index));
 
     this.paths_g = paths_g;
     paths
       .on("mouseover", (e, d) => {
         let html = ` <p> ${d.data[0]} :${d.data[1]} </p>`;
         d3.selectAll(`.linkpath${toValidClassName(d.data[0])}`)
-          .attr("stroke", this.colors.get(d.data[0]))
+          .attr("stroke", "#83ecf4")
           .attr("stroke-width", 3)
           .raise();
         this.tips_show(e, d, html);
@@ -75,7 +79,7 @@ export class PieChart extends ParentChart {
       .on("mouseout", (e, d) => {
         this.tips_hide();
         d3.selectAll(`.linkpath${toValidClassName(d.data[0])}`)
-          .attr("stroke", "lightgray")
+          .attr("stroke", "#f3f3f3")
           .attr("stroke-width", 0.5);
       })
       .on("click", (e, d) => {
@@ -128,7 +132,9 @@ export class PieChart extends ParentChart {
       .text(
         (d) =>
           `${
-            option.length ? d.data[0].substring(0, option.length) : d.data[0]
+            option.length
+              ? d.data[0].substring(0, option.length)
+              : d.data[0].split("(")[0]
           } `
       )
       .attr("font-size", 8);
@@ -188,11 +194,11 @@ export class PieChart extends ParentChart {
       );
 
       let lengthLine =
-        Math.random() * (this.innerRadius - (this.innerRadius / 0.7) * 0.6);
+        Math.random() * (this.innerRadius - (this.innerRadius / 0.9) * 0.6);
       getLineEnd(fromPosition, lengthLine, g, d["PlatForm"]);
       getLineEnd(
         toPosition,
-        lengthLine - (this.innerRadius - (this.innerRadius / 0.7) * 0.6),
+        lengthLine - (this.innerRadius - (this.innerRadius / 0.9) * 0.6),
         g,
         d["PlatForm"]
       );
@@ -264,5 +270,3 @@ function getLineEnd(fromPosition, lineLength, g, name) {
     .attr("stroke", "lightgray")
     .attr("stroke-width", 0.5);
 }
-
- 

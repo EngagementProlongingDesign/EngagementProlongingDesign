@@ -1,11 +1,12 @@
 import { ParentChart } from "./Temp.js";
 export class TreeChart extends ParentChart {
-  constructor(id, data, colors, platformName) {
+  constructor(id, data, colors, platformName, hideText) {
     super(id);
     super.add_svg();
     this.data = data;
     this.colors = colors;
     this.platformName = platformName;
+    this.hideText = hideText;
     this.g = this.ChartArea.append("g").attr(
       "transform",
       `translate(${this.innerW / 2},${this.innerH / 2})`
@@ -17,7 +18,7 @@ export class TreeChart extends ParentChart {
     this.handle_data();
     this.set_color();
     this.draw_path();
-    this.draw_text();
+    this.hideText !== "hide" && this.draw_text();
     this.draw_circle();
   }
   //   构造层级数据
@@ -25,7 +26,7 @@ export class TreeChart extends ParentChart {
     let _data = d3.group(
       this.data,
       (d) => d["Mechanisms"],
-      (d) => d["Patterns"],
+      (d) => d["Patterns"]
       // (d) => d["Features"]
     );
     this.rootData = d3
@@ -137,7 +138,13 @@ export class TreeChart extends ParentChart {
         d.x < Math.PI === !d.children ? "start" : "end"
       )
       .text((d) => {
-        return d.depth < 1 ? d.data[0] : "";
+        return d.depth == 0
+          ? this.platformName
+          : d.depth == 1
+          ? d.data[0]
+          : d.depth == 2
+          ? d.data[0].slice(0, 2)
+          : d.data["Features"];
       })
       .clone(true)
       .lower()
