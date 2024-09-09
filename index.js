@@ -242,7 +242,7 @@ function gen_platform_div({ platforms, level_datas, colors, platforms_data }) {
     .join("div")
     .attr("class", "smallTree");
 
-  div.append("div").html((d) => d);
+  div.append("div").html((d) => d.split("(")[0]);
   div
     .append("div")
     .attr("id", (d) => "small" + toValidClassName(d))
