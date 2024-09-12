@@ -303,6 +303,8 @@ d3.select("#app").on("click", async () => {
   d3.select("#siteName").html("App");
   d3.select("#appImage").style("display", "block");
   d3.select("#webImage").style("display", "none");
+  d3.select("#web_platform").style("display", "none");
+  d3.select("#app_platform").style("display", "block");
   filter();
 });
 d3.select("#web").on("click", async () => {
@@ -312,7 +314,8 @@ d3.select("#web").on("click", async () => {
   d3.select("#siteName").html("Web");
   d3.select("#appImage").style("display", "none");
   d3.select("#webImage").style("display", "block");
-
+  d3.select("#app_platform").style("display", "none");
+  d3.select("#web_platform").style("display", "block");
   filter();
 });
 
