@@ -1,0 +1,336 @@
+﻿Features,PlatForm,Values
+Gifting Options,Apple Store(iOs App),1
+Gifting Options,Ins (Android App),1
+Gifting Options,Tiktok (Android App),1
+Content Sharing Prompts,LinkedIn(Android App),1
+Content Sharing Prompts,Snapchat(Android App),1
+Content Sharing Prompts,Tiktok (Android App),1
+Congratulatory Prompts,LinkedIn(Android App),1
+Anthropomorphic Language for Social Pressure,AliExpress (Android mobile phone),1
+Anthropomorphic Language for Social Pressure,Facebook(Android App),1
+Anthropomorphic Language for Social Pressure,Google Map(Android App),1
+Anthropomorphic Language for Social Pressure,Ins (Android App),1
+Anthropomorphic Language for Social Pressure,LinkedIn(Android App),1
+Anthropomorphic Language for Social Pressure,Snapchat(Android App),1
+Anthropomorphic Language for Social Pressure,Tiktok (Android App),1
+Anthropomorphic Language for Social Pressure,Zalando(Android mobile phone),1
+Social Reminders,Ins (Android App),1
+Social Reminders,LinkedIn(Android App),1
+Social Reminders,Pinterest (Android App),1
+Social Reminders,Snapchat(Android App),1
+Social Reminders,Tiktok (Android App),1
+Contact Sync Prompts,Facebook(Android App),1
+Contact Sync Prompts,Ins (Android App),1
+Contact Sync Prompts,Snapchat(Android App),1
+Contact Sync Prompts,Tiktok (Android App),1
+Contact Sync Prompts,x (Android App),1
+Rating Requests,AliExpress (Android mobile phone),1
+Rating Requests,Amazon (Android mobile phone),1
+Rating Requests,Apple Store(iOs App),1
+Rating Requests,Booking(Android App),1
+Rating Requests,Facebook(Android App),1
+Rating Requests,Google Map(Android App),1
+Rating Requests,Google Play(Android App),1
+Rating Requests,Ins (Android App),1
+Rating Requests,LinkedIn(Android App),1
+Rating Requests,Pinterest (Android App),1
+Rating Requests,Snapchat(Android App),1
+Rating Requests,Tiktok (Android App),1
+Rating Requests,YouTube(Android App),1
+Rating Requests,Zalando(Android mobile phone),1
+Rating Requests,x (Android App),1
+In-app Incomplete/Unread Badge,AliExpress (Android mobile phone),1
+In-app Incomplete/Unread Badge,Booking(Android App),1
+In-app Incomplete/Unread Badge,Facebook(Android App),1
+In-app Incomplete/Unread Badge,Google Play(Android App),1
+In-app Incomplete/Unread Badge,Ins (Android App),1
+In-app Incomplete/Unread Badge,LinkedIn(Android App),1
+In-app Incomplete/Unread Badge,Pinterest (Android App),1
+In-app Incomplete/Unread Badge,Snapchat(Android App),1
+In-app Incomplete/Unread Badge,Tiktok (Android App),1
+In-app Incomplete/Unread Badge,Wikipedia(Android App),1
+In-app Incomplete/Unread Badge,YouTube(Android App),1
+In-app Incomplete/Unread Badge,Zalando(Android mobile phone),1
+In-app Incomplete/Unread Badge,x (Android App),1
+New Feature Prompts,AliExpress (Android mobile phone),1
+New Feature Prompts,Amazon (Android mobile phone),1
+New Feature Prompts,Booking(Android App),1
+New Feature Prompts,Facebook(Android App),1
+New Feature Prompts,Google Map(Android App),1
+New Feature Prompts,Google Play(Android App),1
+New Feature Prompts,Ins (Android App),1
+New Feature Prompts,LinkedIn(Android App),1
+New Feature Prompts,Pinterest (Android App),1
+New Feature Prompts,Snapchat(Android App),1
+New Feature Prompts,Tiktok (Android App),1
+New Feature Prompts,Wikipedia(Android App),1
+New Feature Prompts,YouTube(Android App),1
+New Feature Prompts,Zalando(Android mobile phone),1
+New Feature Prompts,x (Android App),1
+Personal Data Solicitation,Facebook(Android App),1
+Personal Data Solicitation,Google Map(Android App),1
+Personal Data Solicitation,Ins (Android App),1
+Personal Data Solicitation,LinkedIn(Android App),1
+Personal Data Solicitation,Snapchat(Android App),1
+Personal Data Solicitation,Tiktok (Android App),1
+Personal Data Solicitation,YouTube(Android App),1
+Personal Data Solicitation,Zalando(Android mobile phone),1
+Personal Data Solicitation,x (Android App),1
+Advanced Personalization Setting,Facebook(Android App),1
+Advanced Personalization Setting,Google Map(Android App),1
+Advanced Personalization Setting,Ins (Android App),1
+Advanced Personalization Setting,Snapchat(Android App),1
+Task Chunking,AliExpress (Android mobile phone),1
+Task Chunking,Amazon (Android mobile phone),1
+Task Chunking,Apple Store(iOs App),1
+Task Chunking,Booking(Android App),1
+Task Chunking,Google Map(Android App),1
+Task Chunking,LinkedIn(Android App),1
+Task Chunking,Wikipedia(Android App),1
+Task Chunking,Zalando(Android mobile phone),1
+Task Chunking,x (Android App),1
+Scarcity-Based Urgency,Amazon (Android mobile phone),1
+Scarcity-Based Urgency,Booking(Android App),1
+Vague Urgency Cues,Pinterest (Android App),1
+Vague Urgency Cues,Zalando(Android mobile phone),1
+Deadline-driven Prompt,AliExpress (Android mobile phone),1
+Deadline-driven Prompt,Amazon (Android mobile phone),1
+Deadline-driven Prompt,Booking(Android App),1
+Deadline-driven Prompt,Zalando(Android mobile phone),1
+Ephemeral Content,Ins (Android App),1
+Ephemeral Content,YouTube(Android App),1
+Autoplay Countdown Timer,AliExpress (Android mobile phone),1
+Autoplay Countdown Timer,Facebook(Android App),1
+FOMO Notification Prompts,Amazon (Android mobile phone),1
+FOMO Notification Prompts,Apple Store(iOs App),1
+FOMO Notification Prompts,Booking(Android App),1
+FOMO Notification Prompts,Google Map(Android App),1
+FOMO Notification Prompts,Google Play(Android App),1
+FOMO Notification Prompts,Ins (Android App),1
+FOMO Notification Prompts,LinkedIn(Android App),1
+FOMO Notification Prompts,Pinterest (Android App),1
+FOMO Notification Prompts,Snapchat(Android App),1
+FOMO Notification Prompts,Tiktok (Android App),1
+FOMO Notification Prompts,Wikipedia(Android App),1
+FOMO Notification Prompts,YouTube(Android App),1
+FOMO Notification Prompts,Zalando(Android mobile phone),1
+Random/Surpise Reward,AliExpress (Android mobile phone),1
+Random/Surpise Reward,Booking(Android App),1
+Random/Surpise Reward,Google Map(Android App),1
+Streak Rewards and Daily Challenges,AliExpress (Android mobile phone),1
+Streak Rewards and Daily Challenges,Google Map(Android App),1
+Streak Rewards and Daily Challenges,LinkedIn(Android App),1
+Promised Mystery Prizes,Amazon (Android mobile phone),1
+Promised Mystery Prizes,Tiktok (Android App),1
+Intrigue-Inducing Headline,Facebook(Android App),1
+Intrigue-Inducing Headline,Google Map(Android App),1
+Intrigue-Inducing Headline,Snapchat(Android App),1
+Intrigue-Inducing Headline,x (Android App),1
+Deceptive Social Notifications,Facebook(Android App),1
+Profile View Teasers,LinkedIn(Android App),1
+Filtered Content Showcase,Ins (Android App),1
+Filtered Content Showcase,Snapchat(Android App),1
+Filtered Content Showcase,Tiktok (Android App),1
+Provocative Content,AliExpress (Android mobile phone),1
+Provocative Content,Snapchat(Android App),1
+Provocative Content,Tiktok (Android App),1
+Provocative Content,YouTube(Android App),1
+Provocative Content,x (Android App),1
+Prioritizing Content from Most-Interacted Friends,Ins (Android App),1
+Preference-Based Content Curation,AliExpress (Android mobile phone),1
+Preference-Based Content Curation,Amazon (Android mobile phone),1
+Preference-Based Content Curation,Booking(Android App),1
+Preference-Based Content Curation,Facebook(Android App),1
+Preference-Based Content Curation,Google Play(Android App),1
+Preference-Based Content Curation,Ins (Android App),1
+Preference-Based Content Curation,LinkedIn(Android App),1
+Preference-Based Content Curation,Pinterest (Android App),1
+Preference-Based Content Curation,Snapchat(Android App),1
+Preference-Based Content Curation,Tiktok (Android App),1
+Preference-Based Content Curation,Wikipedia(Android App),1
+Preference-Based Content Curation,Zalando(Android mobile phone),1
+Preference-Based Content Curation,x (Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,Facebook(Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,Google Map(Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,Ins (Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,LinkedIn(Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,Pinterest (Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,Snapchat(Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,Tiktok (Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,YouTube(Android App),1
+Likes/Dislikes/Symbols Response Counts on Content,x (Android App),1
+View Counts on Posts,Facebook(Android App),1
+View Counts on Posts,Google Map(Android App),1
+View Counts on Posts,Ins (Android App),1
+View Counts on Posts,Snapchat(Android App),1
+View Counts on Posts,Tiktok (Android App),1
+View Counts on Posts,YouTube(Android App),1
+Viewers/Reactors List,Facebook(Android App),1
+Viewers/Reactors List,Ins (Android App),1
+Viewers/Reactors List,Tiktok (Android App),1
+Top Fan/Contributor Ranking,Tiktok (Android App),1
+Content Analytics Dashboard,Google Map(Android App),1
+Content Analytics Dashboard,Ins (Android App),1
+Content Analytics Dashboard,LinkedIn(Android App),1
+Content Analytics Dashboard,Tiktok (Android App),1
+Content Analytics Dashboard,x (Android App),1
+Social Activity Alerts,Booking(Android App),1
+Social Activity Alerts,Facebook(Android App),1
+Social Activity Alerts,LinkedIn(Android App),1
+Social Activity Alerts,Snapchat(Android App),1
+Social Activity Alerts,Tiktok (Android App),1
+Social Activity Alerts,YouTube(Android App),1
+Social Activity Alerts,x (Android App),1
+Relationship Strength Indicators,Snapchat(Android App),1
+Unclear Language,Amazon (Android mobile phone),1
+Unclear Language,Facebook(Android App),1
+Unclear Language,Pinterest (Android App),1
+Attentional Roach Motel,Amazon (Android mobile phone),1
+Attentional Roach Motel,Apple Store(iOs App),1
+Attentional Roach Motel,Ins (Android App),1
+Attentional Roach Motel,LinkedIn(Android App),1
+Attentional Roach Motel,Tiktok (Android App),1
+Attentional Roach Motel,Zalando(Android mobile phone),1
+Lack of Time Indicators,Wikipedia(Android App),1
+No Opt-Out Option,Ins (Android App),1
+No Opt-Out Option,Tiktok (Android App),1
+Mix of Irrelevant and Relevant Content,Pinterest (Android App),1
+Mandatory Sponsored Content Viewing,Snapchat(Android App),1
+Mandatory Sponsored Content Viewing,YouTube(Android App),1
+Mandatory Manual Select,Tiktok (Android App),1
+Nagging,Facebook(Android App),1
+Nagging,Google Map(Android App),1
+Nagging,Ins (Android App),1
+Nagging,Snapchat(Android App),1
+Nagging,Tiktok (Android App),1
+Nagging,Wikipedia(Android App),1
+Nagging,x (Android App),1
+Pre-Selected Options Requiring Manual Deselect,Booking(Android App),1
+Pre-Selected Options Requiring Manual Deselect,Facebook(Android App),1
+Pre-Selected Options Requiring Manual Deselect,Ins (Android App),1
+Pre-Selected Options Requiring Manual Deselect,LinkedIn(Android App),1
+Pre-Selected Options Requiring Manual Deselect,Pinterest (Android App),1
+Pre-Selected Options Requiring Manual Deselect,Snapchat(Android App),1
+Pre-Selected Options Requiring Manual Deselect,Wikipedia(Android App),1
+Pre-Selected Options Requiring Manual Deselect,YouTube(Android App),1
+Pre-Selected Options Requiring Manual Deselect,Zalando(Android mobile phone),1
+Pre-Selected Options Requiring Manual Deselect,x (Android App),1
+Mandatory Instructional Steps,AliExpress (Android mobile phone),1
+Mandatory Instructional Steps,Booking(Android App),1
+Mandatory Instructional Steps,Ins (Android App),1
+Mandatory Instructional Steps,LinkedIn(Android App),1
+Mandatory Instructional Steps,Snapchat(Android App),1
+Mandatory Instructional Steps,Tiktok (Android App),1
+Mandatory Instructional Steps,x (Android App),1
+Continued Video Playback After App Exit,Tiktok (Android App),1
+Continued Video Playback After App Exit,YouTube(Android App),1
+Continued Video Playback After App Exit,x (Android App),1
+Pin App Features to Home Screen,Facebook(Android App),1
+Pin App Features to Home Screen,Tiktok (Android App),1
+Accidental touch,Tiktok (Android App),1
+Endless Exploration Instructions,Tiktok (Android App),1
+Watch & Explore History displayed on the Main Page,Amazon (Android mobile phone),1
+Watch & Explore History displayed on the Main Page,Booking(Android App),1
+Watch & Explore History displayed on the Main Page,Facebook(Android App),1
+Watch & Explore History displayed on the Main Page,Google Map(Android App),1
+Watch & Explore History displayed on the Main Page,Google Play(Android App),1
+Watch & Explore History displayed on the Main Page,Ins (Android App),1
+Watch & Explore History displayed on the Main Page,Pinterest (Android App),1
+Watch & Explore History displayed on the Main Page,Snapchat(Android App),1
+Watch & Explore History displayed on the Main Page,Tiktok (Android App),1
+Watch & Explore History displayed on the Main Page,Wikipedia(Android App),1
+Watch & Explore History displayed on the Main Page,YouTube(Android App),1
+Watch & Explore History displayed on the Main Page,Zalando(Android mobile phone),1
+Watch & Explore History displayed on the Main Page,x (Android App),1
+Autoplay Next Episode,Facebook(Android App),1
+Autoplay Next Episode,YouTube(Android App),1
+Autoadvance in Games,AliExpress (Android mobile phone),1
+Autoadvance in Games,Facebook(Android App),1
+Autoplay Videos on Scroll,AliExpress (Android mobile phone),1
+Autoplay Videos on Scroll,Amazon (Android mobile phone),1
+Autoplay Videos on Scroll,Facebook(Android App),1
+Autoplay Videos on Scroll,Ins (Android App),1
+Autoplay Videos on Scroll,LinkedIn(Android App),1
+Autoplay Videos on Scroll,Pinterest (Android App),1
+Autoplay Videos on Scroll,Snapchat(Android App),1
+Autoplay Videos on Scroll,Tiktok (Android App),1
+Autoplay Videos on Scroll,YouTube(Android App),1
+Autoplay Videos on Scroll,x (Android App),1
+Trending Quick Suggestions,AliExpress (Android mobile phone),1
+Trending Quick Suggestions,Amazon (Android mobile phone),1
+Trending Quick Suggestions,Apple Store(iOs App),1
+Trending Quick Suggestions,Booking(Android App),1
+Trending Quick Suggestions,Google Play(Android App),1
+Trending Quick Suggestions,Ins (Android App),1
+Trending Quick Suggestions,LinkedIn(Android App),1
+Trending Quick Suggestions,Pinterest (Android App),1
+Trending Quick Suggestions,Snapchat(Android App),1
+Trending Quick Suggestions,Tiktok (Android App),1
+Trending Quick Suggestions,Wikipedia(Android App),1
+Trending Quick Suggestions,YouTube(Android App),1
+Trending Quick Suggestions,Zalando(Android mobile phone),1
+Trending Quick Suggestions,x (Android App),1
+One-Click Personalized Recommendations,AliExpress (Android mobile phone),1
+One-Click Personalized Recommendations,Amazon (Android mobile phone),1
+One-Click Personalized Recommendations,Booking(Android App),1
+One-Click Personalized Recommendations,Facebook(Android App),1
+One-Click Personalized Recommendations,Google Map(Android App),1
+One-Click Personalized Recommendations,Google Play(Android App),1
+One-Click Personalized Recommendations,Ins (Android App),1
+One-Click Personalized Recommendations,LinkedIn(Android App),1
+One-Click Personalized Recommendations,Pinterest (Android App),1
+One-Click Personalized Recommendations,Snapchat(Android App),1
+One-Click Personalized Recommendations,Tiktok (Android App),1
+One-Click Personalized Recommendations,YouTube(Android App),1
+One-Click Personalized Recommendations,Zalando(Android mobile phone),1
+One-Click Personalized Recommendations,x (Android App),1
+One-Click Sharing,Facebook(Android App),1
+One-Click Sharing,Ins (Android App),1
+One-Click Sharing,LinkedIn(Android App),1
+One-Click Sharing,Pinterest (Android App),1
+One-Click Sharing,Snapchat(Android App),1
+One-Click Sharing,Tiktok (Android App),1
+One-Click Sharing,YouTube(Android App),1
+One-Click Sharing,x (Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,AliExpress (Android mobile phone),1
+Pre-Selected Emojis/Contents for Quick Responses,Amazon (Android mobile phone),1
+Pre-Selected Emojis/Contents for Quick Responses,Facebook(Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,Google Play(Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,Ins (Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,LinkedIn(Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,Pinterest (Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,Snapchat(Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,Tiktok (Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,YouTube(Android App),1
+Pre-Selected Emojis/Contents for Quick Responses,Zalando(Android mobile phone),1
+Infinite Scrolling,AliExpress (Android mobile phone),1
+Infinite Scrolling,Amazon (Android mobile phone),1
+Infinite Scrolling,Apple Store(iOs App),1
+Infinite Scrolling,Facebook(Android App),1
+Infinite Scrolling,Google Play(Android App),1
+Infinite Scrolling,Ins (Android App),1
+Infinite Scrolling,LinkedIn(Android App),1
+Infinite Scrolling,Pinterest (Android App),1
+Infinite Scrolling,Snapchat(Android App),1
+Infinite Scrolling,Tiktok (Android App),1
+Infinite Scrolling,YouTube(Android App),1
+Infinite Scrolling,x (Android App),1
+Casino Pull-to-refresh,Pinterest (Android App),1
+Casino Pull-to-refresh,x (Android App),1
+Visually Engaging Recommendations Grid,AliExpress (Android mobile phone),1
+Visually Engaging Recommendations Grid,Apple Store(iOs App),1
+Visually Engaging Recommendations Grid,Facebook(Android App),1
+Visually Engaging Recommendations Grid,Google Play(Android App),1
+Visually Engaging Recommendations Grid,Ins (Android App),1
+Visually Engaging Recommendations Grid,Pinterest (Android App),1
+Visually Engaging Recommendations Grid,Snapchat(Android App),1
+Visually Engaging Recommendations Grid,YouTube(Android App),1
+Sponsored Posts Mimicking or Mixed with Regular Content,AliExpress (Android mobile phone),1
+Sponsored Posts Mimicking or Mixed with Regular Content,Amazon (Android mobile phone),1
+Sponsored Posts Mimicking or Mixed with Regular Content,Apple Store(iOs App),1
+Sponsored Posts Mimicking or Mixed with Regular Content,Google Play(Android App),1
+Sponsored Posts Mimicking or Mixed with Regular Content,Ins (Android App),1
+Sponsored Posts Mimicking or Mixed with Regular Content,LinkedIn(Android App),1
+Sponsored Posts Mimicking or Mixed with Regular Content,Snapchat(Android App),1
+Sponsored Posts Mimicking or Mixed with Regular Content,YouTube(Android App),1
+Sponsored Posts Mimicking or Mixed with Regular Content,x (Android App),1

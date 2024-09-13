@@ -11,7 +11,7 @@ async function main({ app_or_web_type, Mechanism, Features, Patterns }) {
 
   let level_data = await d3.csv("level.csv");
   let feature_data = await d3.csv("Features.csv");
-  let PlatForms_data = await d3.csv("platform.csv");
+  let PlatForms_data = await d3.csv(`platform_${app_or_web_type}.csv`);
 
   // 交互筛选数据
   function filter_data() {
